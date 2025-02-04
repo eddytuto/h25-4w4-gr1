@@ -18,6 +18,11 @@ Les Variables
 @import "variables/couleurs";
 @import "variables/dimensions";
 
+/* /////////////////////
+Base
+//////////////////////// */
+@import "base/simple";
+@import "base/lien";
 /* /////////////////////////
 Les composants
 /////////////////////////// */
