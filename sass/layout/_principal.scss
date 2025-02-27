@@ -7,3 +7,10 @@
     min-height: 100vh;
     background-image: url("images/maldives.jpg");
 }
+
+.boiteflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap : 10px;
+}

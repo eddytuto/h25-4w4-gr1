@@ -1,6 +1,10 @@
-# Exercice 1
+
+# TP1
+
 ## Cours: 4W4-Conception d'interface et développement Web
 
-Créer une page d'accueil en utilisant le standard BEM et Sass pour reproduire le contenu de maquette.
+Créer un thème WP pour un club de voyages.
+La réalisation de ce thème permettra d'optimiser la présentation d'un contenu spécifique sur différentes destinations de voyages.
 Auteur: Eddy Martin
-### Githyb-page: https://eddytuto.github.io/h25-4w4-gr1/
+
+### lien externe
