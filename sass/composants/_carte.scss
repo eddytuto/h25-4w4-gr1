@@ -50,5 +50,13 @@ Le composant .carte
         background-color: #0056b3;
       }
     }
+    & .post-categories {
+      list-style-type: none;
+      display: flex;
+      gap : 3px;
+      a {
+        text-decoration: none;
+      }
+    }
   }
   
