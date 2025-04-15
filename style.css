@@ -130,6 +130,18 @@ Le composant .carte
   padding: 0 3px;
 }
 
+.categorie__ul {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.categorie__ul__li {
+  border: 1px solid #aaa;
+  padding: 3px;
+  cursor: pointer;
+}
+
 /* /////////////////////////
 Layout 
 /////////////////////////// */
@@ -138,16 +150,24 @@ Layout
   max-width: 1000px;
 }
 
-.hero {
-  min-height: 100vh;
-  background-repeat: no-repeat;
-}
-
 .boiteflex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
+}
+
+.hero {
+  min-height: 100vh;
+  position: relative;
+}
+.hero__carrousel {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .burger {

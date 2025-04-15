@@ -29,10 +29,12 @@ Les composants
 @import "composants/menu";
 @import "composants/carte";
 @import "composants/recherche";
+@import "composants/boutons-categories";
 
 /* /////////////////////////
 Layout 
 /////////////////////////// */
 @import "layout/principal";
+@import "layout/hero";
 @import "layout/entete";
 @import "layout/footer";
