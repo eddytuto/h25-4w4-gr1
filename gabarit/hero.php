@@ -17,12 +17,22 @@ $hero_background[$k] = get_theme_mod('hero_background_' . $k, 'Default Title');
     </div>
     <!-- ///////////////////////////////////////////////// hero__contenu -->
     <div class="hero__contenu global">
-        <h1 class="hero__titre">
-            <?php  bloginfo('name'); ?>
-        </h1>
-        <p class="hero__description">
-        <?php  bloginfo('description'); ?>
-        </p>
+        <div class="hero__animation">
+            <h1 class="hero__titre">
+                <?php  bloginfo('name'); ?>
+            </h1>
+            <p class="hero__description">
+            <?php  bloginfo('description'); ?>
+            </p>
+        </div>
+        <div class="hero__animation">
+            <h1 class="hero__titre">
+                Lorem ipsum dolor
+            </h1>
+            <p class="hero__description">
+            consectetur adipisicing elit. Dicta velit asperiores 
+            </p>
+        </div>
         <a href="" class="hero__courriel">
             info@cmaisonneuve.qc.ca
         </a>
