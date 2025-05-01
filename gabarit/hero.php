@@ -1,17 +1,17 @@
-<?php  
-$hero_auteur = get_theme_mod('hero_auteur', 'Default Title'); 
+<?php
+$hero_auteur = get_theme_mod('hero_auteur', 'Default Title');
 
-for ($k=0; $k<3; $k++){
-$hero_background[$k] = get_theme_mod('hero_background_' . $k, 'Default Title'); 
+for ($k = 0; $k < 3; $k++) {
+    $hero_background[$k] = get_theme_mod('hero_background_' . $k, 'Default Title');
 }
 ?>
 <section class="hero">
     <!-- ///////////////////////////////////////////////// hero__carrousel -->
-    <div class="hero__carrousel"  style="background-image: url('<?php echo $hero_background[0] ?>');" ></div>    
-    <div class="hero__carrousel"  style="background-image: url('<?php echo $hero_background[1] ?>');" ></div> 
-    <div class="hero__carrousel"  style="background-image: url('<?php echo $hero_background[2] ?>');" ></div> 
+    <div class="hero__carrousel  hero__carrousel--active  " style="background-image: url('<?php echo $hero_background[0] ?>');"></div>
+    <div class="hero__carrousel" style="background-image: url('<?php echo $hero_background[1] ?>');"></div>
+    <div class="hero__carrousel" style="background-image: url('<?php echo $hero_background[2] ?>');"></div>
     <div class="hero__radio">
-        <input class="hero__radio__input" type="radio" name="carrousel" data-id_carrousel="0"  checked="checked">
+        <input class="hero__radio__input" type="radio" name="carrousel" data-id_carrousel="0" checked="checked">
         <input class="hero__radio__input" type="radio" name="carrousel" data-id_carrousel="1">
         <input class="hero__radio__input" type="radio" name="carrousel" data-id_carrousel="2">
     </div>
@@ -19,18 +19,26 @@ $hero_background[$k] = get_theme_mod('hero_background_' . $k, 'Default Title');
     <div class="hero__contenu global">
         <div class="hero__animation">
             <h1 class="hero__titre">
-                <?php  bloginfo('name'); ?>
+                <?php bloginfo('name'); ?>
             </h1>
             <p class="hero__description">
-            <?php  bloginfo('description'); ?>
+                <?php bloginfo('description'); ?>
             </p>
         </div>
-        <div class="hero__animation">
+        <div class="hero__animation hero__animation--active">
             <h1 class="hero__titre">
                 Lorem ipsum dolor
             </h1>
             <p class="hero__description">
-            consectetur adipisicing elit. Dicta velit asperiores 
+                consectetur adipisicing elit. Dicta velit asperiores
+            </p>
+        </div>
+        <div class="hero__animation">
+            <h1 class="hero__titre">
+                aaaaa aaaaa aaaaaa aaaaaa
+            </h1>
+            <p class="hero__description">
+                zzzz zzzzz zzzz zzz zzz zzz  zzzz zzzzz zzzz zzz zzz zzz zzzz zzzzz zzzz zzz zzz zzz  zzzz zzzzz zzzz zzz zzz zzz 
             </p>
         </div>
         <a href="" class="hero__courriel">
@@ -46,5 +54,5 @@ $hero_background[$k] = get_theme_mod('hero_background_' . $k, 'Default Title');
             <img src="https://s2.svgbox.net/social.svg?ic=stackoverflow&color=000000" width="20" height="20">
         </div>
         <p>Auteur:<?php echo $hero_auteur;  ?></p>
-        </div>
-    </section>
+    </div>
+</section>

@@ -12,7 +12,7 @@
             parcourir_animation()
             console.log(elm.dataset.id_carrousel)
             hero__carrousel[elm.dataset.id_carrousel].classList.add('hero__carrousel--active')
-            hero__animation[elm.dataset.id_carrousel].style.display = "block";
+            hero__animation[elm.dataset.id_carrousel].classList.add('hero__animation--active')
         })
     })
 
@@ -24,7 +24,7 @@ function parcourir_carrousel(){
 }
 function parcourir_animation(){
     hero__animation.forEach(elm=> {
-        elm.style.display = "none";
+        elm.classList.remove('hero__animation--active')
     })
 }
 
