@@ -47,6 +47,9 @@ for ($k = 0; $k < 3; $k++) {
         <button class="hero__bouton">
             Inscription
         </button>
+        <a href="<?= home_url() . "/conference-paris";  ?>" class="hero__bouton">
+            Conférence sur Paris
+        </a>
         <div class="hero__icone-app">
             <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=000000" width="20" height="20">
             <img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=000000" width="20" height="20">
